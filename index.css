@@ -1,7 +1,8 @@
-.row1{
-    display: grid;
-    grid-template-columns:5% 75% 5% 5% 5%;
-    margin-left: 5%;
+.row1 div{
+    display: inline;
+}   
+.right{
+    float: right;
 }
 .row2{
     position: relative;
@@ -11,9 +12,28 @@
 }
 .relative{ position: relative;
 }
-.row2 .text {
+.text {
     position: absolute;
     top: 170px;
     left: 50px;
 }
+.text-2 {
+    position: absolute;
+    top: 100px;
+}
+.roW4 img{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+}
+.roW4 div{
+    padding: 100px;
+}
+
+    
+
+
+
+
+
 
