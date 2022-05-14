@@ -20,20 +20,41 @@
 .text-2 {
     position: absolute;
     top: 100px;
+    
 }
-.roW4 img{
+.row4 {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    width: 100%;
+    grid-template-columns: 32% 32% 32%;
+        width: 100%;
 }
-.roW4 div{
-    padding: 100px;
-}
-
+    
+.row4 div{  
+    padding: 10px;
     
 
+}
+.row4 div img{
+    padding-top: 10px;
+}
+.row4 .anh-2 img{
+width: 400px;
+height: 350px;
+}
+.row4{
+    margin-left: 2%;
+}
+
+.text-3 {
+    position: absolute;
+     top: 100px;
+}
+.text-3 .h3 {
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+   
 
 
 
+}
 
 
